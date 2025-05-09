@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncPipeline", "AsyncPipeline\AsyncPipeline.csproj", "{CD7E33F4-B540-44D6-B6D3-D32027FE04BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncPipeline.Core", "AsyncPipeline\AsyncPipeline.Core.csproj", "{CD7E33F4-B540-44D6-B6D3-D32027FE04BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncPipeline.Tests", "AsyncPipeline.Tests\AsyncPipeline.Tests.csproj", "{96862DAB-58EE-44D0-9A20-9CCACEB74C62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncPipeline.Tests", "AsyncPipeline.Tests\AsyncPipeline.Tests.csproj", "{96862DAB-58EE-44D0-9A20-9CCACEB74C62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncPipeline.TestApp", "AsyncPipeline.TestApp\AsyncPipeline.TestApp.csproj", "{6F3CD36D-2F5E-4BF2-BA72-9F324DBEB5C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{96862DAB-58EE-44D0-9A20-9CCACEB74C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96862DAB-58EE-44D0-9A20-9CCACEB74C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96862DAB-58EE-44D0-9A20-9CCACEB74C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F3CD36D-2F5E-4BF2-BA72-9F324DBEB5C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F3CD36D-2F5E-4BF2-BA72-9F324DBEB5C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F3CD36D-2F5E-4BF2-BA72-9F324DBEB5C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F3CD36D-2F5E-4BF2-BA72-9F324DBEB5C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

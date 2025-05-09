@@ -7,7 +7,7 @@
 
 		<!-- NuGet package metadata -->
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<PackageId>AsyncPipeline</PackageId>
+		<PackageId>AsyncPipeline.RobertasTru</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Robertas Trumpauskas</Authors>
 		<Company>ROBERTAS NUGGETS</Company>

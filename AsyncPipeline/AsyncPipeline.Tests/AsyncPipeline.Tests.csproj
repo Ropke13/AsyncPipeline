@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AsyncPipeline\AsyncPipeline.csproj" />
+    <ProjectReference Include="..\AsyncPipeline\AsyncPipeline.Core.csproj" />
   </ItemGroup>
 
 </Project>

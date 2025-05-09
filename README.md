@@ -23,3 +23,17 @@ Chain tasks, add retry logic, validate steps, branch conditionally, or run in pa
 
 ```bash
 dotnet add package AsyncPipeline.RobertasTru
+
+
+---
+
+## 🚀 Quick Start Example
+
+Basic async chaining:
+
+```csharp
+var result = await AsyncPipeline<int, int>
+    .Start()
+    .Step(async x => x * 2)
+    .Step(async x => x + 3)
+    .ExecuteAsync(5); // Output: 13
